@@ -12,11 +12,11 @@ class Codechef {
             System.out.println("It's hot outside! Stay hydrated.");
         }
         // Use one 'else if' to check if the temperature is between 10 and 30 (inclusive)
-        else if(temp > 10 || temp <= 30){
+        else if(temp >= 10 || temp <= 30){
             System.out.println("The weather is moderate. Enjoy your day!");
         }
         // Use 'else' for all other conditions (temperature below 10)
-        else{
+        else if(temp < 10){
             System.out.println("It's cold outside! Wear warm clothes.");
         }
         scanner.close(); // Close the Scanner object to free up resources
