@@ -47,7 +47,7 @@ The weather is moderate. Enjoy your day!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T13:28:27.658Z  
+**Submitted:** 2026-10-07T13:29:14.290Z  
 
 ```java
 import java.util.Scanner; // Import Scanner class to take input from the user
@@ -64,11 +64,11 @@ class Codechef {
             System.out.println("It's hot outside! Stay hydrated.");
         }
         // Use one 'else if' to check if the temperature is between 10 and 30 (inclusive)
-        else if(temp > 10 || temp <= 30){
+        else if(temp >= 10 || temp <= 30){
             System.out.println("The weather is moderate. Enjoy your day!");
         }
         // Use 'else' for all other conditions (temperature below 10)
-        else{
+        else if(temp < 10){
             System.out.println("It's cold outside! Wear warm clothes.");
         }
         scanner.close(); // Close the Scanner object to free up resources
