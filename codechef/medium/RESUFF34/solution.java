@@ -26,6 +26,7 @@ class Codechef {
 
             default:
             System.out.println("Invalid weather condition code. Please enter 1, 2, 3, or 4.");
+            break;
                 
         }
 
