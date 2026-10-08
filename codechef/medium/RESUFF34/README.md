@@ -73,7 +73,7 @@ Invalid weather condition code. Please enter 1, 2, 3, or 4.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T16:49:11.098Z  
+**Submitted:** 2026-10-08T16:48:17.074Z  
 
 ```java
 
@@ -98,7 +98,7 @@ class Codechef {
                 
 
             case 4:
-                System.out.println("It's windy! Wear a windbreaker and avoid loose clothing.");
+                System.out.println("Invalid weather condition code. Please enter 1, 2, 3, or 4.");
                 break;
                 
 
