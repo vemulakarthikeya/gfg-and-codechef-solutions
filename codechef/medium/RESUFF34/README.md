@@ -73,7 +73,7 @@ Invalid weather condition code. Please enter 1, 2, 3, or 4.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T16:47:33.575Z  
+**Submitted:** 2026-10-08T16:48:09.802Z  
 
 ```java
 
@@ -104,6 +104,7 @@ class Codechef {
 
             default:
             System.out.println("Invalid weather condition code. Please enter 1, 2, 3, or 4.");
+            break;
                 
         }
 
