@@ -4,35 +4,16 @@
 
 ## Problem
 
-### Checking for Promotion Eligibility
-
-You are checking if a user is eligible for a special promotion. The user is eligible if they are  **18 or older**  AND they have a  **premium account**  OR if they are an  **admin**. Given the following conditions:
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int age = 20; 
-        boolean hasPremium = true; 
-        boolean isAdmin = false; 
-
-        if ((age >= 18 && hasPremium) || isAdmin) {
-            System.out.println("Eligible for promotion"); 
-        } else {
-            System.out.println("Not eligible for promotion"); 
-        }
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T16:27:56.717Z  
+**Submitted:** 2026-10-08T16:27:20.254Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         
