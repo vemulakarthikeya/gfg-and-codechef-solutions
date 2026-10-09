@@ -4,16 +4,34 @@
 
 ## Problem
 
-_Description not available._
+### Counting Down for a Rocket Launch
+
+A space agency is conducting a countdown for a rocket launch. The loop runs using a forward loop counter with a while loop and prints each number.
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int count = 1; 
+
+        while (count <= 10) {  
+            System.out.println("T-minus " + count);  
+            count++; 
+        }
+
+        System.out.println("Lift-off!");  
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T16:22:08.450Z  
+**Submitted:** 2026-10-09T16:22:47.452Z  
 
-```java
+```cpp
 import java.util.Scanner;  // Import Scanner for user input  
 
 class Codechef {
