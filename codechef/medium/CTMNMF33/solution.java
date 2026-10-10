@@ -5,7 +5,7 @@ class Codechef {
         while(true)
         {
              System.out.println("Server is running");
-             break;
+             //Write break; below
         }
     
     }
