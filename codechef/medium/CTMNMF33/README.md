@@ -13,23 +13,22 @@ To get AC (Accepted) in this problem, use break inside the while loop — it imm
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T16:56:53.954Z  
+**Submitted:** 2026-10-10T16:57:22.784Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        int num = 10; // Start checking from 10
-
-        while (num <= 20) { // Loop runs until 20
-            if (num % 3 == 0) { // Check if num is a multiple of 3
-                System.out.println("First multiple of 3 found: " + num);
-                break; // Exit the loop once found
-            }
-            num++; // Increment num to check the next number
+     
+       // This infinite loop simulates a continuously running server.
+        while(true)
+        {
+             System.out.println("Server is running");
+             //Write break; below
         }
+    
     }
 }
 
