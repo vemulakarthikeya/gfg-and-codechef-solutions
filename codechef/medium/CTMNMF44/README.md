@@ -4,16 +4,46 @@
 
 ## Problem
 
-_Description not available._
+### Electricity Bill Processing
+
+What will be the output of the below code?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int unit = 1;
+
+        while (unit <= 10) {
+            unit++;
+            
+            if(unit>10)
+            {
+                break;
+            }
+            
+            if (unit % 2 == 0) {
+                continue;
+            }
+
+            if (unit == 9) {
+                System.out.println("High consumption alert at unit: " + unit);
+            } else {
+                System.out.println("Processing unit: " + unit);
+            }
+        }
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T16:59:30.931Z  
+**Submitted:** 2026-10-11T16:04:31.638Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         int i = 1; // Initialize counter
