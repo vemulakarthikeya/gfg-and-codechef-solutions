@@ -27,7 +27,7 @@ Explanation: anth = a + (n-1)d = 10 + (101-1)*10 = 10 + 1000 = 1010.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-15T16:15:17.871Z  
+**Submitted:** 2026-10-15T16:20:10.629Z  
 
 ```java
 import java.util.Scanner;
@@ -40,9 +40,8 @@ class GFG {
         int n = sc.nextInt();
 
         // code here
-        int val1 = (n-1);
-        int res = a + (val1*d);
-        System.out.println(res);
+        int res = a + (n-1)*d;
+        System.out.print(res);
     }
 }
 
