@@ -8,8 +8,7 @@ class GFG {
         int n = sc.nextInt();
 
         // code here
-        int val1 = (n-1);
-        int res = a + (val1*d);
-        System.out.println(res);
+        int res = a + (n-1)*d;
+        System.out.print(res);
     }
 }
