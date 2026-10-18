@@ -25,7 +25,7 @@ Explanation: 13 + 23 + 33 + 43 + 53 + 63 + 73 = 784
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T07:41:35.976Z  
+**Submitted:** 2026-10-18T14:23:03.921Z  
 
 ```java
 class Solution {
@@ -33,7 +33,7 @@ class Solution {
         // code here
         int sum=0,cube=0;
         while(n > 0){
-            cube = n*n*n;
+            cube = (int)Math.pow(n,3);
             sum = sum + cube;
             n--;
         }
