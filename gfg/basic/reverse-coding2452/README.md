@@ -31,7 +31,7 @@ Explanation: Since n is 0, the sum is 0.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T15:42:38.726Z  
+**Submitted:** 2026-11-04T12:27:37.532Z  
 
 ```java
 import java.util.Scanner;
