@@ -30,7 +30,7 @@ Explanation: (100 + 13) mod 107 = 6
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T07:53:32.205Z  
+**Submitted:** 2026-11-15T14:06:20.243Z  
 
 ```java
 class Solution {
