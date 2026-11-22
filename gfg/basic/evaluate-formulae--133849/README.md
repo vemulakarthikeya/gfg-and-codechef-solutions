@@ -30,7 +30,7 @@ Explanation: 5 + 6 = 11, 11 // 8 = 1(Python) or 11 / 7 = 1(Java or CPP or C), 1 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-11T15:45:11.266Z  
+**Submitted:** 2026-11-22T15:30:10.688Z  
 
 ```java
 import java.util.Scanner;
