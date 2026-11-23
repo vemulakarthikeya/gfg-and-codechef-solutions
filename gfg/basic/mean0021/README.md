@@ -25,7 +25,7 @@ Explanation: Sum of the elements is 4 + 4 + 4 + 4 + 4 = 20, Mean = 20/5 = 4
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T12:39:20.979Z  
+**Submitted:** 2026-11-23T17:43:09.881Z  
 
 ```java
 class Solution {
