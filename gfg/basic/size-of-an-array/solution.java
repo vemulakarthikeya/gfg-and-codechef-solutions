@@ -1,10 +1,10 @@
 class Solution {
     public int getSize(int[] arr) {
         // code here
-        int count = 0;
-        for(int i = 0 ; i < arr.length ; i++){
-            count++;
+        int j = 0;
+        for(int i = j ; i < arr.length ; i++){
+            j++;
         }
-        return count;
+        return j;
     }
 }
