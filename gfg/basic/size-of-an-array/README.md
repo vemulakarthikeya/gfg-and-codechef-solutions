@@ -25,17 +25,17 @@ Explanation: The size of the array is 5.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T15:32:31.025Z  
+**Submitted:** 2026-11-26T15:44:08.571Z  
 
 ```java
 class Solution {
     public int getSize(int[] arr) {
         // code here
-        int count = 0;
-        for(int i = 0 ; i < arr.length ; i++){
-            count++;
+        int j = 0;
+        for(int i = j ; i < arr.length ; i++){
+            j++;
         }
-        return count;
+        return j;
     }
 }
 ```
